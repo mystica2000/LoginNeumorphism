@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #b03b3b;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .login {
+            border-radius: 59px;
+            background: linear-gradient(225deg, #d14646, #b03b3b);
+            box-shadow: -25px 25px 50px #a63737,
+                25px -25px 50px hsl(0, 71%, 59%);
+            text-align: center;
+            padding: 20px;
+            margin: 30px;
+            width: 300px;
+            height: 300px;
+        }
+
+        input::placeholder {
+            color: #666;
+        }
+
+        h2 {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        input {
+            padding: 10px;
+            margin: 20px;
+            border-style: none;
+            color: white;
+        }
+
+        button {
+            border-style: none;
+            padding: 20px;
+            border-radius: 17px;
+            background: linear-gradient(225deg, #b03b3b, #d14646);
+            box-shadow: -23px 23px 46px #7f2a2a,
+                23px -23px 46px #ff5858;
+            cursor: pointer;
+        }
+
+        input {
+            border-radius: 35px;
+            background: linear-gradient(225deg, #d14646, #b03b3b);
+            box-shadow: -23px 23px 46px #7f2a2a,
+                23px -23px 46px #ff5858;
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Poppins:wght@300;500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="login">
+        <h2>LOGIN</h2>
+        <br><br>
+        <form action="post">
+            <input type="text" name="" id="" class="textbox" placeholder="Name">
+            <br>
+            <input type="password" name="" class="passbox" placeholder="Password">
+            <br>
+            <button>Submit</button>
+            <br>
+            <br>
+            <a href="">Forgot Password?</a>
+        </form>
+    </div>
+</body>
+
+</html>
